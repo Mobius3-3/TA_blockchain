@@ -8,6 +8,7 @@ public class map {
 
     public static void calculateWorldsFrequency(List<String> input) {
         TreeMap<String, Integer> freqMap = new TreeMap<>();
+        // get in the cool sa
         for (String str : input) {
             freqMap.put(str, freqMap.getOrDefault(str, 0) + 1);
         }
